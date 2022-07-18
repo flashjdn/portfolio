@@ -1,0 +1,32 @@
+# portfolio
+portfolio repository
+
+Planning: 
+-   Miro board: https://miro.com/app/board/uXjVO0ob0V0=/
+
+-   Menu bar at top of page = div
+        contains logo/name, and hyperlinks to other secions of the page (random projects, about, etc)
+    
+-   Image/video segment = div
+        contains name FLASHJDN, a grey opacity mask to make the image/video slightly greyed out. optional quote and a button? unsure.
+
+-   Introductory segment = div
+    -   Picture of myself = div
+    -   Text boxes w/ titles, brief on who i am
+    -   potentially an expandable segment? (research how to do this)
+
+-   Recent projects = div
+    -   project tiles = divs
+        reusable elements? fill images from a database?
+    -   expandable elements? tile shows synopsis, click to bring up full tile?
+
+-   Socials tab = div
+    -   different colour to main page
+    -   each img will link to corresponding social media
+
+* * * * * * * * * * * * * *
+
+## Portfolio layout
+
+-   Navbar at the top of the page
+-   
