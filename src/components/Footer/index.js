@@ -1,6 +1,15 @@
 import './styles.css'
+import { useState } from 'react'
 
 function Footer() {
+  const [site, setSite] = useState(null);
+
+  
+  function openTab(site) {
+    window.open(site)
+  }
+  const github = 'https://github.com/flashjdn'
+
   return (
     <div className="footer">
       <div className="icons">
