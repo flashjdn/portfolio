@@ -1,0 +1,55 @@
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.icons {
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: xx-large;
+
+}
+
+button .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button:hover {
+  /* font-size: 120%; */
+  display: block;
+  color: red;
+
+}
+
+button:hover .tooltiptext{
+  visibility: visible;
+}

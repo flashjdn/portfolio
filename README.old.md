@@ -28,5 +28,6 @@ Planning:
 
 ## Portfolio layout
 
--   Navbar at the top of the page
--   
+-   Moon / Sun icon for theme switching to be at fixed position on top left of the screen
+-   Footer icons to have hover and colour change effect, but need to control margins to stop all elements in the div moving on hover size increase
+

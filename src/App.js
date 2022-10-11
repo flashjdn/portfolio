@@ -1,20 +1,20 @@
-import "./App.css";
-import "./components/Navbar/Navbar.css";
-import Navbar from "./components/Navbar";
-import ImageBox from "./components/ImageBox";
-import Profile from "./components/Profile";
-import Projects from "./components/Projects"
-
-
+import "./styles.css"
+import ImageBox from './components/ImageBox'
+import Profile from './components/Profile'
+import Projects from './components/Projects'
+import Footer from './components/Footer'
+import IntroTitle from './components/IntroTitle'
 function App() {
   return (
     <main>
-      <Navbar></Navbar>
-      <ImageBox></ImageBox>
+      <ImageBox />
+      <IntroTitle />
       <Profile />
       <Projects />
+      <Footer />
+      
     </main>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,5 +1,5 @@
 import Tile from '../Tile'
-import './projects.css'
+import './styles.css'
 
 const Projects = () => {
   return (

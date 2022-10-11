@@ -1,16 +1,18 @@
-import './Profile.css'
-import avatar from '../../assets/images/avatar.png'
+import './styles.css'
+import avatar from '../../assets/images/profile-pic.jpg'
+// import IntroTitle from '../IntroTitle'
 
 const Profile = () => {
   return (
-    <section id="profile">
-      <h1> Hello, I'm Jordan</h1>
-      <div id="container">
-        <img className='avatar' src={avatar} alt="profile" />
+    <section className='profile'>
+    <div className='img-container'> 
+      <img className="avatar" src={avatar} alt="profile" />
+    </div>
       <div id="intro">
-        <h3> Id elit et reprehenderit dolor ex sunt. Laboris velit elit sint ipsum labore velit cupidatat veniam cupidatat culpa minim. In occaecat eiusmod est deserunt non non laboris pariatur excepteur pariatur amet.  </h3>
+        <h3>
+        Recent School of Code graduate and full stack developer. Passion for science, learning new things and a whole lot more, tune in next time on dragonball Z.
+        </h3>
       </div>
-      </div>      
     </section>
   )
 }

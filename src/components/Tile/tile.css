@@ -1,15 +1,17 @@
 .tile {
 
-    height:450px;
-    width: 200px;
+    height:400px;
+    width: 300px;
+    min-width: 200px;
     box-sizing: border-box;
     background-color: none;
     border-radius: 28px;
     text-align: center;
-    
-
-
-
+    padding: 0px;
+    margin: auto;
+    margin-bottom: 50px;
+    flex-direction: column;
+   
 }
  .tile-image {
     width: 100%;
@@ -18,4 +20,13 @@
     border-radius: 28px;
     border-color: #ababab;
     border-style: groove;
+ }
+
+ .tile h3 {
+
+    display: inline-flex;
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin: auto;
  }

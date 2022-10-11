@@ -1,0 +1,7 @@
+.intro-title{
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}

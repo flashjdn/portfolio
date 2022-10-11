@@ -1,10 +1,11 @@
 #navbar {
 display: flex;
-background-color: rgba(39, 110, 151, 0.8);
+background-color: rgba(39, 110, 151, 1);
 justify-content:space-evenly;
-position: sticky;
-height: 6vh;
+position: static;
+height: 6%;
 align-items: center;
-top: 0px
+top: 0px;
+z-index: 10
 }
 

@@ -1,37 +1,46 @@
-#imagebox{
-    height: 20vh;
-    width: 100vw;
-    background-color: #fadedd
+#imagebox {
+  height: 20vh;
+  width: 100vw;
+  background-color: #fadedd;
 }
 
 #imageContainer {
-    height: 40vh;
-    width: 100vw;
-    position: flex;
-    background-color: #fadedd;
-    background-image: url("./sunset.png");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
+  height: 60vh;
+  width: 100vw;
+  position: flex;
+  background-color: #fadedd;
+  background-image: url('./sunset.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: table;
 }
 
 #title {
-position:relative;
-justify-content: center;
-text-align: center;
-color: #ffffff;
-letter-spacing: 20px;
-align-items: center;
-margin: auto;
-vertical-align: center;
-padding: 17vh
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 20px;
+  align-items: center;
+  margin: auto;
+  vertical-align: center;
+  padding-top: 25vh;
 }
 
-
-
-
+.subtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+  align-items: center;
+  margin: auto;
+  vertical-align: center;
+  padding-top: 12px;
+}

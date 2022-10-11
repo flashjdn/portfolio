@@ -1,0 +1,19 @@
+#project-container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* border: 5px solid red; */
+  box-sizing: border-box;
+}
+
+#project-container h1 {
+  font-size: 58px;
+  color: var(--secondary)
+}
+
+#display {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+}
