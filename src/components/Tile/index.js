@@ -1,12 +1,11 @@
-import placeholder from '../../assets/images/placeholder.jpeg'
 import './tile.css'
 
-const Tile = () => {
+const Tile = ({name, img, desc, link, stack}) => {
   return (
     <article className="tile">
-      <img className="tile-image" src={placeholder} alt="my project" />
+      <img className="tile-image" src={img} alt="my project" />
 
-      <h3> my project</h3>
+      <h3>{name}</h3>
     </article>
   )
 }

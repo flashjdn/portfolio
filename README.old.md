@@ -31,3 +31,14 @@ Planning:
 -   Moon / Sun icon for theme switching to be at fixed position on top left of the screen
 -   Footer icons to have hover and colour change effect, but need to control margins to stop all elements in the div moving on hover size increase
 
+## Tile component
+
+-   image of app as default
+-   title of app underneath img
+-   on hover, dim display and render description text
+-   render two buttons:
+    -   Demo
+    -   Repo
+
+-   Transition effect to make hovered tile stand out
+    -   

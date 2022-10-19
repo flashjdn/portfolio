@@ -1,24 +1,46 @@
 import './styles.css'
-import { useState } from 'react'
+import cv from '../../assets/cv.pdf'
 
 function Footer() {
-  const [site, setSite] = useState(null);
-
-  
-  function openTab(site) {
-    window.open(site)
-  }
-  const github = 'https://github.com/flashjdn'
-
   return (
     <div className="footer">
       <div className="icons">
-        <button class="fa-brands fa-github"></button>
-        <button class="fa-brands fa-linkedin"></button>
-        <button class="fa-solid fa-envelope"></button>
-        <button class="fa-solid fa-file"></button>
+        <a
+          class="fa-brands fa-github footer-button"
+          href="https://github.com/flashjdn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+        </a>
+        <a
+          class="fa-brands fa-linkedin footer-button"
+          href="https://www.linkedin.com/in/jordanflash/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+        </a>
+        <a
+          class="fa-solid fa-envelope footer-button"
+          href="mailto:flash.jordan.3@gmail.com"
+          subject="Job opportunity"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+        </a>
+        <a
+          class="fa-solid fa-file footer-button"
+          href={cv}
+          download="Jordan Flash CV"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+        </a>
       </div>
-      <h5> Copyright © 2022 Jordan Flash</h5>
+      <h5 className="copyright"> Copyright © 2022 Jordan Flash</h5>
     </div>
   )
 }

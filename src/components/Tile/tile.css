@@ -1,32 +1,33 @@
 .tile {
-
-    height:400px;
-    width: 300px;
-    min-width: 200px;
-    box-sizing: border-box;
-    background-color: none;
-    border-radius: 28px;
-    text-align: center;
-    padding: 0px;
-    margin: auto;
-    margin-bottom: 50px;
-    flex-direction: column;
-   
+  display: flex;
+  height: 100%;
+  /* width: 400px; */
+  min-width: 200px;
+  box-sizing: border-box;
+  border-radius: 28px;
+  text-align: center;
+  flex-direction: column;
+  transition: transform 0.3s;
 }
- .tile-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 28px;
-    border-color: #ababab;
-    border-style: groove;
- }
 
- .tile h3 {
+.tile:hover {
+  transform: scale(1.03);
+}
 
-    display: inline-flex;
-    position:relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
-    margin: auto;
- }
+.tile-image {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 28px;
+  border-color: #ababab;
+  border-style: groove;
+}
+
+.tile h3 {
+  display: inline-flex;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  margin: auto;
+  color: var(--secondary);
+}
