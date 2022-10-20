@@ -34,7 +34,13 @@ const Projects = () => {
       link: 'https://production.d3hv43jagk7qg5.amplifyapp.com/',
       stack: 'JavaScript, React, Heroku, Node, MUI, Express, AWS ',
     },
-  ]
+  ];
+
+  function previewTile(){
+
+  };
+
+
 
   return (
     <section id="project-container">
