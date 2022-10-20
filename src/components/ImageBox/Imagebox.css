@@ -1,23 +1,27 @@
 #imagebox {
   height: 20vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: #fadedd;
 }
 
 #imageContainer {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: flex;
   background-color: #fadedd;
   background-image: url('./sunset.png');
   background-position: 50%;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: table;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: table; */
+  background-color: rgba(0, 0, 0, 0.3); /* Tint color */
+  background-blend-mode: multiply;
 }
+
+
 
 #title {
   position: relative;

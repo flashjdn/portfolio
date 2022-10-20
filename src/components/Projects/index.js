@@ -2,7 +2,7 @@ import Tile from '../Tile'
 import './styles.css'
 import placeholder from '../../assets/images/placeholder.jpeg'
 import turnup from '../../assets/images/turnup-img.png'
-import Card from '../FancyCard'
+// import Card from '../FancyCard'
 
 const Projects = () => {
   let apps = [
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       name: 'TurnUp',
       img: turnup,
-      desc: 'A web based app designed to help peopel find and advertise free events in their local area. Created in three weeks within an agile team of new devs. ',
+      desc: 'A web based app designed to help people find and advertise free events in their local area. Created in three weeks within an agile team of new devs. ',
       link: 'https://production.d3hv43jagk7qg5.amplifyapp.com/',
       stack: 'JavaScript, React, Heroku, Node, MUI, Express, AWS ',
     },

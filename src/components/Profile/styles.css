@@ -3,10 +3,13 @@ background-color: var(--primary);
 display:flex;
 align-items: center;
 flex-direction: row;
-justify-content: space-around;
+justify-content: center;
 height: 100%;
 width: 100%;
-margin:auto;
+gap: 90px;
+
+
+
 
 
 }
@@ -24,10 +27,12 @@ margin:auto;
 }
 
 .img-container { 
-height: 300px ;
-width: 300px;
-border-radius: 30%;
-overflow: hidden;
+    height: 300px ;
+    width: 300px;
+    border-radius: 30%;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 3px rgba(45, 45, 45, 0.65)
+
 }
 
 #intro {
