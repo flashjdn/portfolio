@@ -1,0 +1,110 @@
+.card-cont {
+  display: flex;
+  height: 100%;
+  min-width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  flex-direction: column;
+  transition: transform 0.3s;
+}
+
+.card-cont:hover {
+  /* transform: scale(1.03); */
+}
+
+.card {
+  position: relative;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0px 0px 27px 3px rgba(42, 42, 42, 0.65);
+
+  /* display: hidden; */
+}
+
+.card .hidden {
+  opacity: 0;
+}
+
+.card:hover .hidden {
+  opacity: 1;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(42, 42, 42, 0.7);
+  transition: opacity 0.3s ease-in-out;
+  /* background-blend-mode: multiply; */
+  color: whitesmoke
+}
+
+.stack {
+  display: flex;
+  padding:10px;
+  justify-content: center;
+}
+
+.stack #icon{
+  width: 50px;
+  height: 50px;
+}
+.description {
+  /* position: absolute;
+  top: 120px; */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+.button1 {
+  /* position: absolute;
+  top: 200px;
+  left: 100px; */
+  background-color: rgb(0, 168, 252);
+  color: azure;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 0 0 2px 1px rgba(42, 42, 42, 0.3);
+}
+.button2 {
+  /* position: absolute;
+  top: 200px;
+  right: 100px; */
+  background-color: rgb(7, 89, 130);
+  color: azure;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 0 0 2px 1px rgba(42, 42, 42, 0.3);
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+
+  /* background-color: rgba(42, 42, 42, 0.3);
+  background-blend-mode: multiply; */
+}
+.img-div {
+  background-color: rgba(42, 42, 42, 0.3);
+  border-radius: 30px;
+  width: 400px;
+  height: 250px;
+}
+
+.card-cont h3 {
+  display: inline-flex;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  margin: auto;
+  color: var(--secondary);
+}
