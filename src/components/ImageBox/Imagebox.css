@@ -8,17 +8,27 @@
   height: 100vh;
   width: 100%;
   position: flex;
-  background-color: #fadedd;
-  background-image: url('./sunset.png');
+  /* background-color: #fadedd; */
+  /* background-image: url('./sunset.png'); */
   background-position: 50%;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
   /* text-align: center; */
   /* justify-content: center; */
   /* align-items: center; */
   /* display: table; */
-  /* background-color: rgba(0, 0, 0, 0.3); Tint color */
+  background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
+}
+
+#imageContainer:after {
+  transition: ease-in-out 0.5s;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 

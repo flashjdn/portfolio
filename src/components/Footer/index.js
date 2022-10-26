@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <div className="icons">
         <a
-          class="fa-brands fa-github footer-button"
+          className="fa-brands fa-github footer-button"
           href="https://github.com/flashjdn"
           target="_blank"
           rel="noreferrer"
@@ -14,7 +14,7 @@ function Footer() {
           {' '}
         </a>
         <a
-          class="fa-brands fa-linkedin footer-button"
+          className="fa-brands fa-linkedin footer-button"
           href="https://www.linkedin.com/in/jordanflash/"
           target="_blank"
           rel="noreferrer"
@@ -22,7 +22,7 @@ function Footer() {
           {' '}
         </a>
         <a
-          class="fa-solid fa-envelope footer-button"
+          className="fa-solid fa-envelope footer-button"
           href="mailto:flash.jordan.3@gmail.com"
           subject="Job opportunity"
           target="_blank"
@@ -31,7 +31,7 @@ function Footer() {
           {' '}
         </a>
         <a
-          class="fa-solid fa-file footer-button"
+          className="fa-solid fa-file footer-button"
           href={cv}
           download="Jordan Flash CV"
           target="_blank"
