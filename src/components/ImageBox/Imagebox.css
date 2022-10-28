@@ -13,25 +13,23 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* display: table; */
+  object-fit: cover;
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
+  transition: opacity ease-in-out 3s 1s;
+  -webkit-transform-style: preserve-3d;
+  /* -webkit-transform: translate3d(0, 0, 0); */
+  -webkit-backface-visibility: hidden;
 }
 
-#imageContainer:after {
-  transition: ease-in-out 0.5s;
-}
+/* #imageContainer:after {
+} */
 
 .background {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
-
 
 #title {
   position: relative;

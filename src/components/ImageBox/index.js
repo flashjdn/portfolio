@@ -41,15 +41,23 @@ useEffect takes in two arguments:
 
   /*
   - This is able to change background image of ONE div per the interval timing, creating a loop
-  - Impossible to use CSS transition on just * one * class
+  - Impossible to use CSS transition on just * one * class (?)
   - Need 2 background image divs? 
   - two classes: one active, one inactive
     - <div className="active"></div> 
     - <div className="inactive"></div> 
   - after interval, divs swap classes
   - CSS transition with opacity 
-    - transition: opacity 1s ease-in-out;
-    
+  - inactive class to have opacity 0
+  - active class to have opacity 1
+    - transition: opacity 3s ease-in-out;
+  
+  How will the divs know which image to display?
+  - possible to tie backgroundImage to div with specific className?
+
+
+
+
   */
 
   return (
