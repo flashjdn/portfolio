@@ -38,7 +38,8 @@
   background-color: rgba(42, 42, 42, 0.7);
   transition: opacity 0.3s ease-in-out;
   /* background-blend-mode: multiply; */
-  color: whitesmoke
+  color: whitesmoke;
+  padding: 10px
 }
 
 .stack {
@@ -58,9 +59,10 @@
 
 .buttons {
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  align-items: flex-end;
   gap: 40px;
-  padding-top: 50px;
+  /* padding-top: 40px; */
 }
 
 .button1 {

@@ -17,11 +17,16 @@ const Card = ({ name, img, desc, demo, github, stack }) => {
             <p>{desc}</p>
           </div>
           <div className="buttons">
-            <a className="button1" href={demo}>
+            <a className="button1" href={demo} target="_blank" rel="noreferrer">
               Demo
             </a>
 
-            <a className="button2" href={github}>
+            <a
+              className="button2"
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </div>

@@ -2,6 +2,7 @@ import Card from '../Card'
 import './styles.css'
 import placeholder from '../../assets/images/placeholder.jpeg'
 import turnup from '../../assets/images/turnup-img.png'
+import wackPhoto from '../../assets/images/wackPhoto.png'
 import  * as icons from '../../assets/icons/exports.js'
 
 const Projects = () => {
@@ -9,10 +10,10 @@ const Projects = () => {
     
     {
       name: 'Wack',
-      img: placeholder,
-      desc: '',
-      demo: '',
-      github: '',
+      img: wackPhoto,
+      desc: 'Simple news feed app that allows users to create posts and comment on them. Created within an agile team over four days.',
+      demo: 'wackdb.netlify.app',
+      github: 'https://github.com/flashjdn/wk9-wack-frontend',
       stack: [icons.css, icons.html, icons.js, icons.react, icons.node, icons.heroku, icons.postgres, icons.netlify],
     },
   
