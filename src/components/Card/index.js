@@ -1,6 +1,6 @@
 import './styles.css'
 
-const Card = ({ name, img, desc, demo, github, stack }) => {
+const Card = ({ name, img, desc, demo, front, back, stack }) => {
   return (
     <article className="card-cont">
       <div className="card">
@@ -17,18 +17,30 @@ const Card = ({ name, img, desc, demo, github, stack }) => {
             <p>{desc}</p>
           </div>
           <div className="buttons">
-            <a className="button1" href={demo} target="_blank" rel="noreferrer">
+            <a className="button" href={demo} target="_blank" rel="noreferrer">
               Demo
             </a>
+            {front ? (
+              <a
+                className="button"
+                href={front}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Frontend
+              </a>
+            ) : null}
 
-            <a
-              className="button2"
-              href={github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
+            {back ? (
+              <a
+                className="button"
+                href={back}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Backend
+              </a>
+            ) : null}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 .profile {
 background-color: var(--primary);
 display:flex;
-align-items: center;
+/* align-items: center; */
 flex-direction: row;
 justify-content: center;
 height: 100vh;
@@ -35,7 +35,7 @@ gap: 90px;
 
 }
 
-#intro {
+.profile-text {
     max-width: 40vw;
     max-height: 40vh;
     color: var(--secondary)

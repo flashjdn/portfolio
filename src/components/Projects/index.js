@@ -2,7 +2,7 @@ import Card from '../Card'
 import './styles.css'
 import placeholder from '../../assets/images/placeholder.jpeg'
 import turnup from '../../assets/images/turnup-img.png'
-import wackPhoto from '../../assets/images/wackPhoto.png'
+import wack from '../../assets/images/wack.png'
 import  * as icons from '../../assets/icons/exports.js'
 
 const Projects = () => {
@@ -10,10 +10,11 @@ const Projects = () => {
     
     {
       name: 'Wack',
-      img: wackPhoto,
+      img: wack,
       desc: 'Simple news feed app that allows users to create posts and comment on them. Created within an agile team over four days.',
-      demo: 'wackdb.netlify.app',
-      github: 'https://github.com/flashjdn/wk9-wack-frontend',
+      demo: 'https://wackdb.netlify.app/',
+      front: 'https://github.com/flashjdn/wk9-wack-frontend',
+      back: '',
       stack: [icons.css, icons.html, icons.js, icons.react, icons.node, icons.heroku, icons.postgres, icons.netlify],
     },
   
@@ -22,7 +23,8 @@ const Projects = () => {
       img: turnup,
       desc: 'A web based app designed to help people find and advertise free events in their local area. Created in three weeks within an agile team of new devs. ',
       demo: 'https://production.d3hv43jagk7qg5.amplifyapp.com/',
-      github: 'https://github.com/SchoolOfCode/final-project_front-end-slack-ops',
+      front: 'https://github.com/SchoolOfCode/final-project_front-end-slack-ops',
+      back: '',
       stack: [icons.css, icons.html, icons.js, icons.node, icons.react, icons.aws, icons.heroku, icons.postgres, ],
     },
   ]
