@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import './Imagebox.css'
 import { React, useState, useEffect } from 'react'
 import images from '../../assets/images/jpeg/exports.js'
@@ -37,7 +38,9 @@ useEffect takes in two arguments:
       clearInterval(intervalHandle)
       console.log(images[count])
     }
-  }, [count])
+  }, [count
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  ,counter])
 
   /*
   - This is able to change background image of ONE div per the interval timing, creating a loop

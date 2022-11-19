@@ -1,6 +1,6 @@
 import Card from '../Card'
 import './styles.css'
-import placeholder from '../../assets/images/placeholder.jpeg'
+// import placeholder from '../../assets/images/placeholder.jpeg'
 import turnup from '../../assets/images/turnup-img.png'
 import wack from '../../assets/images/wack.png'
 import  * as icons from '../../assets/icons/exports.js'
