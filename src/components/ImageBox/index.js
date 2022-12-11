@@ -2,6 +2,7 @@
 import './Imagebox.css'
 import { React, useState, useEffect } from 'react'
 import images from '../../assets/images/jpeg/exports.js'
+import Mask from '../Mask/index.js'
 
 /*
 - import array named images
@@ -38,9 +39,11 @@ useEffect takes in two arguments:
       clearInterval(intervalHandle)
       console.log(images[count])
     }
-  }, [count
+  }, [
+    count,
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  ,counter])
+    counter,
+  ])
 
   /*
   - This is able to change background image of ONE div per the interval timing, creating a loop
@@ -64,11 +67,17 @@ useEffect takes in two arguments:
   */
 
   return (
-    <div id="imageContainer" style={{ backgroundImage: `url(${background})` }}>
-      {/* <img src={background} alt={background}></img> */}
-      <h1 id="title">FLASHJDN</h1>
-      <h4 className="subtitle"> Software Developer </h4>
-    </div>
+    <>
+      <Mask loaded={background ? true : false} />
+      <div
+        id="imageContainer"
+        style={{ backgroundImage: `url(${background})` }}
+      >
+        {/* <img src={background} alt={background}></img> */}
+        <h1 id="title">FLASHJDN</h1>
+        <h4 className="subtitle"> Software Developer </h4>
+      </div>
+    </>
   )
 }
 

@@ -17,14 +17,13 @@ const Profile = () => {
         </h3>
         <h2 className="subheading">Background</h2>
         <p>
-          <ul>Biomedical Sciences graduate from Uni of Southampton</ul>
+          <ul>- Biomedical Sciences graduate from Uni of Southampton</ul>
           <ul>
-            Experience in Event Organisation and Quality Assurance before coming
-            into the world of tech
+            - Experience in Event Organisation and Quality Assurance before
+            coming into the world of tech
           </ul>
           <ul>
-            Enrolled in a bootcamp April 2022 learning Web Dev with JavaScript
-            
+            - Enrolled in a bootcamp April 2022 learning Web Dev with JavaScript
           </ul>
         </p>
         <h2 className="subheading">Interests and Hobbies</h2>
@@ -50,9 +49,9 @@ const Profile = () => {
           <ul>
             Q: Is your last name really Flash? <br></br>
             <br></br>
-            A: It actually is, BUT I’ve never
-            watched Flash Gordon, nor am I an athletic prodigy so please don’t
-            expect me to win at any sporting event.
+            A: It actually is, BUT I’ve never watched Flash Gordon, nor am I an
+            athletic prodigy so please don’t expect me to win at any sporting
+            event.
           </ul>
           <ul></ul>
         </p>
