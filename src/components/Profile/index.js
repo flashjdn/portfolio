@@ -54,6 +54,12 @@ const Profile = () => {
             event.
           </ul>
           <ul></ul>
+          <h4>
+            {' '}
+            Side note: CSS is currently undergoing reconstruction, and I'm in
+            the process of moving over my project databases to MongoDB because
+            Heroku wanted to be rude and remove their free tier.{' '}
+          </h4>
         </p>
       </div>
     </section>
