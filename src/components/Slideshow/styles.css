@@ -1,4 +1,4 @@
-#imagebox {
+#slideshow {
   height: 20vh;
   /* width: 100vw; */
   background-color: #fadedd;
@@ -17,7 +17,7 @@
   object-fit: cover;
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
-  transition:  ease-in-out 3s 1s;
+  transition: ease-in-out 3s 1s;
   -webkit-transform-style: preserve-3d;
   /* -webkit-transform: translate3d(0, 0, 0); */
   -webkit-backface-visibility: hidden;

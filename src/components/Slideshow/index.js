@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import './Imagebox.css'
+import './styles.css'
 import { React, useState, useEffect } from 'react'
 import images from '../../assets/images/jpeg/exports.js'
 import Mask from '../Mask/index.js'
@@ -11,7 +11,7 @@ import Mask from '../Mask/index.js'
 - add delay timer to the for loop approx. 20s
   */
 
-const ImageBox = () => {
+const Slideshow = () => {
   const [background, setBackground] = useState(images[0])
   const [count, setCount] = useState(0)
 
@@ -81,4 +81,4 @@ useEffect takes in two arguments:
   )
 }
 
-export default ImageBox
+export default Slideshow

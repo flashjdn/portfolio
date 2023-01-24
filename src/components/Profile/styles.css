@@ -17,6 +17,15 @@ gap: 90px;
     padding: 50px;
     color: var(--secondary);
 }
+
+.title{
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px; 
+}
+
 .avatar {
     width: 100%;
     height: auto;

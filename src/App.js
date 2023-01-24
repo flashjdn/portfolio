@@ -1,18 +1,17 @@
-import "./styles.css"
-import ImageBox from './components/ImageBox'
+import './styles.css'
+import Slideshow from './components/Slideshow'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import IntroTitle from './components/IntroTitle'
+import Header from './components/Header'
 function App() {
   return (
     <main>
-      <ImageBox />
-      <IntroTitle />
+      <Slideshow />
+      <Header />
       <Profile />
       <Projects />
       <Footer />
-      
     </main>
   )
 }
