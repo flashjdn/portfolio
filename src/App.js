@@ -8,7 +8,7 @@ function App() {
   return (
     <main>
       <Slideshow />
-      <Header />
+      {/* <Header /> */}
       <Profile />
       <Projects />
       <Footer />
