@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   /* height: 10vh; */
-  background-color: var(--mid-grey);
+  background-color: var(--primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +16,7 @@
   justify-content: space-around;
   font-size: xx-large;
   padding-bottom: 7px;
+  color: var(--white-text)
 }
 
 .footer-button {
@@ -23,9 +24,9 @@
 }
 
 .footer-button:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   display: block;
-  color: rgb(201, 231, 251);
+  color: var(--secondary);
 }
 
 a,
@@ -39,4 +40,6 @@ a:active {
 .copyright {
   /* position:absolute; */
   margin: 0px;
+  color: var(--white-text);
+  font-size: 10px;
 }

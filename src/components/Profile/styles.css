@@ -11,6 +11,10 @@
     padding-top: 20px;
 }
 
+.container h2 {
+    padding-top: 30px;
+}
+
 .container h3 {
     font-size: 20px;
     font-weight: 400;
@@ -31,7 +35,7 @@
     display: inherit;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: space-evenly;
 }
 
 .text {
@@ -42,6 +46,18 @@
     max-height: auto;
     width: 400px;
     background-color: #eee6;
-    margin-left: 50px;
-    justify-self: right;
+    /* margin-left: 50px; */
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.question {
+    font-style: bold;
+    font-weight: 600;
+}
+
+.answer {
+    font-style: italic;
+    font-weight: 700;
 }

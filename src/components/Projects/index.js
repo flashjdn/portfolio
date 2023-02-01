@@ -31,9 +31,9 @@ const Projects = () => {
 
 
   return (
-    <section id="project-container">
-      <h1> My projects</h1>
-      <div id="display">
+    <section className=" project container">
+      <h1> Recent projects</h1>
+      <div className="display">
         {apps.map((app) => (
           <Card {...app} />
         ))}

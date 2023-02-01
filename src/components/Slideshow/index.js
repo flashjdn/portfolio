@@ -12,7 +12,7 @@ import Mask from '../Mask/index.js'
   */
 
 const Slideshow = () => {
-  const [background, setBackground] = useState(images[0])
+  const [background, setBackground] = useState(images[0].img)
   const [count, setCount] = useState(0)
 
   // let count = 0
@@ -23,7 +23,7 @@ const Slideshow = () => {
     } else {
       setCount(0)
     }
-    console.log(count)
+    console.log(count + 1)
   }
 
   /*
@@ -34,10 +34,10 @@ useEffect takes in two arguments:
 
   useEffect(() => {
     const intervalHandle = setInterval(counter, 15000)
-    setBackground(images[count])
+    setBackground(images[count].img)
     return () => {
       clearInterval(intervalHandle)
-      console.log(images[count])
+      // console.log(images[count].img)
     }
   }, [
     count,
@@ -75,7 +75,7 @@ useEffect takes in two arguments:
       >
         {/* <img src={background} alt={background}></img> */}
         <h1 id="title">FLASHJDN</h1>
-        <h4 className="subtitle"> Software Developer </h4>
+        <h4 className="subtitle"> {images[count].location} </h4>
       </div>
     </>
   )

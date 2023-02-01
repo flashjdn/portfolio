@@ -40,7 +40,7 @@ function Footer() {
           {' '}
         </a>
       </div>
-      <h5 className="copyright"> Copyright © 2022 Jordan Flash</h5>
+      <h5 className="copyright">Design by Jordan Flash</h5>
     </div>
   )
 }
