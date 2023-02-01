@@ -1,6 +1,6 @@
 import './styles.css'
 import avatar from '../../assets/images/flash-headshot.jpg'
-// import Header from '../Header'
+
 
 //talk about bootcamp graduation and specialisation (tech stack)
 

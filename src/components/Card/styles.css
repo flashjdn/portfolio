@@ -8,9 +8,6 @@
   transition: transform 0.3s;
 }
 
-.card-cont:hover {
-  /* transform: scale(1.03); */
-}
 
 .card {
   position: relative;
@@ -52,10 +49,7 @@
   width: 50px;
   height: 50px;
 }
-.description {
-  /* position: absolute;
-  top: 120px; */
-}
+
 
 .buttons {
   display: flex;
