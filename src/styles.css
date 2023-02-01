@@ -5,6 +5,7 @@
   --dark-grey: #2F2F2F;
   --mid-grey: #444444;
   --pink: #fadedd;
+  --white-text: #eeeeee
   
 }
 
@@ -16,7 +17,7 @@
 
 main {
   max-width: 100%;
-  /* background-color: #fadedd; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
