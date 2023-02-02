@@ -1,0 +1,25 @@
+:root {
+  --primary: #202020;
+  --secondary: #E7CA77;
+  --light-grey: #C4C4C4;
+  --dark-grey: #2F2F2F;
+  --mid-grey: #444444;
+  --pink: #fadedd;
+  --white-text: #eeeeee
+  
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+main {
+  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--primary);
+}

@@ -1,0 +1,32 @@
+/*
+.project-container {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+
+  box-sizing: border-box;
+  background-color: var(--dark-grey); }
+
+*/
+
+.project {
+  background-color: var(--dark-grey);
+  /* margin: 0; */
+  margin-left: 0;
+}
+
+
+.project h1 {
+  margin-left: 30px;
+}
+
+.display {
+  display: inherit;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  height: auto;
+  min-width: 700px;
+  gap:30px;
+  padding: 50px 0px 20px 0px;
+}

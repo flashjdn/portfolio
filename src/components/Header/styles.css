@@ -1,0 +1,8 @@
+.name{
+    color: var(--secondary);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 60px;
+}
