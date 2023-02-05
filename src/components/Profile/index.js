@@ -1,15 +1,16 @@
 import './styles.css'
 import avatar from '../../assets/images/flash-headshot.jpg'
 
-
 //talk about bootcamp graduation and specialisation (tech stack)
 
 const Profile = () => {
   return (
     <section className="container">
-      <h1> Jordan Flash</h1>
-      <h3>Junior Software Engineer</h3>
-      <div className="underline"></div>
+      <div className="title">
+        <h1> Jordan Flash</h1>
+        <h3>Junior Software Engineer</h3>
+        <div className="underline"></div>
+      </div>
       <div className="profile">
         <div className="text">
           <h2>Background</h2>
@@ -19,7 +20,8 @@ const Profile = () => {
             into the world of tech
           </p>
           <p>
-            Graduated from School of Code in August 2022, a Full Stack Web Development Bootcamp.
+            Graduated from School of Code in August 2022, a Full Stack Web
+            Development Bootcamp.
           </p>
           <h2>Interests and Hobbies</h2>
           <p>
@@ -42,21 +44,32 @@ const Profile = () => {
             Video games: Currently playing Destiny 2 (this is a cry for help){' '}
           </p>
           <h2> FAQ </h2>
-          <p className='question'>Is your last name really Flash?</p>
-          <ul className='answer'>
+          <p className="question">Is your last name really Flash?</p>
+          <ul className="answer">
             It actually is, BUT I’ve never watched Flash Gordon, nor am I an
             athletic prodigy so please don’t expect me to win at any sporting
             event.
           </ul>
-          <p className='question'>Where are you based?</p>
-          <ul className='answer'>I currently live in London, UK and have done for most of my life. The only exception is when I moved out to go to university in Southampton.</ul>
-          <p className='question'> You sound amazing! How can I get in contact with you?</p>
-          <ul className='answer'>Flattery gets you everywhere in life. You can find links to my socials and CV at the bottom of the page.</ul>
-          
-
+          <p className="question">Where are you based?</p>
+          <ul className="answer">
+            I currently live in London, UK and have done for most of my life.
+            The only exception is when I moved out to go to university in
+            Southampton.
+          </ul>
+          <p className="question">
+            {' '}
+            You sound amazing! How can I get in contact with you?
+          </p>
+          <ul className="answer">
+            Flattery gets you everywhere in life. You can find links to my
+            socials and CV at the bottom of the page.
+          </ul>
         </div>
-          <img className='photo' src={avatar} alt="A headshot of the page's author, Jordan Flash"></img>
-
+        <img
+          className="photo"
+          src={avatar}
+          alt="A headshot of the page's author, Jordan Flash"
+        ></img>
       </div>
     </section>
   )

@@ -74,7 +74,7 @@ useEffect takes in two arguments:
         style={{ backgroundImage: `url(${background})` }}
       >
         {/* <img src={background} alt={background}></img> */}
-        <h1 id="title">FLASHJDN</h1>
+        <h1 className="hero-title">FLASHJDN</h1>
         <h4 className="subtitle"> {images[count].location} </h4>
       </div>
     </>

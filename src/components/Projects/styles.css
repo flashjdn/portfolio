@@ -26,7 +26,9 @@
   position: relative;
   flex-wrap: wrap;
   height: auto;
-  min-width: 700px;
+  /* min-width: 700px; */
   gap:30px;
   padding: 50px 0px 20px 0px;
 }
+
+
