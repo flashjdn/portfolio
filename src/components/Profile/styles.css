@@ -1,16 +1,17 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   /* margin-left: 30px; */
   color: var(--white-text);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container h1 {
   font-size: 50px;
   margin: 0;
   padding-top: 20px;
+  text-shadow: 1px 2px 1px  #111a 
 }
 
 .container h2 {
@@ -50,7 +51,7 @@
 
 .photo {
   /* max-height: auto; */
-  width: 50vmin;
+  width: 45vmin;
   background-color: #eee6;
   /* padding-left: 50px; */
   margin-top: 8vmin;
@@ -66,4 +67,48 @@
 .answer {
   font-style: italic;
   font-weight: 700;
+}
+
+.margin {
+  padding-left: 8vmin;
+  padding-right: 8vmin;
+}
+
+@media screen and (max-width: 700px){
+  .container, .profile{
+    justify-content: center;
+    align-self: center;
+  }
+.profile {
+  flex-direction: column-reverse;
+}
+.profile h2 {
+  margin-top: 0;
+  padding-top: 5vmin;
+}
+
+  .title, .underline {
+    max-width:100vw;
+    overflow: hidden;
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 10vmin;
+    
+  }
+  .photo{
+    width: 70vw;
+    align-self: center;
+  }
+
+  .text {
+    text-align: justify;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .photo {
+    /* width: 35vmin; */
+  }
 }

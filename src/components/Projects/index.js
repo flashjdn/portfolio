@@ -31,8 +31,9 @@ const Projects = () => {
 
 
   return (
-    <section className=" project container">
+    <section className="project container margin">
       <h1> Recent projects</h1>
+      {/* <div className='underline'></div> */}
       <div className="display">
         {apps.map((app) => (
           <Card {...app} />

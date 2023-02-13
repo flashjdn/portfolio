@@ -70,7 +70,7 @@ useEffect takes in two arguments:
     <>
       <Mask loaded={background ? true : false} />
       <div
-        id="imageContainer"
+        className="imageContainer"
         style={{ backgroundImage: `url(${background})` }}
       >
         {/* <img src={background} alt={background}></img> */}

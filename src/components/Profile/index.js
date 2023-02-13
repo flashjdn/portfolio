@@ -5,7 +5,7 @@ import avatar from '../../assets/images/flash-headshot.jpg'
 
 const Profile = () => {
   return (
-    <section className="container">
+    <section className="container margin">
       <div className="title">
         <h1> Jordan Flash</h1>
         <h3>Junior Software Engineer</h3>
@@ -13,6 +13,7 @@ const Profile = () => {
       </div>
       <div className="profile">
         <div className="text">
+        <article className='paragraph'>
           <h2>Background</h2>
           <p>Biomedical Sciences graduate from Uni of Southampton</p>
           <p>
@@ -23,6 +24,8 @@ const Profile = () => {
             Graduated from School of Code in August 2022, a Full Stack Web
             Development Bootcamp.
           </p>
+          </article>
+          <article className='paragraph '>
           <h2>Interests and Hobbies</h2>
           <p>
             {' '}
@@ -43,6 +46,8 @@ const Profile = () => {
             {' '}
             Video games: Currently playing Destiny 2 (this is a cry for help){' '}
           </p>
+          </article>
+          <article className='paragraph bottom'>
           <h2> FAQ </h2>
           <p className="question">Is your last name really Flash?</p>
           <ul className="answer">
@@ -64,6 +69,7 @@ const Profile = () => {
             Flattery gets you everywhere in life. You can find links to my
             socials and CV at the bottom of the page.
           </ul>
+          </article>
         </div>
         <img
           className="photo"

@@ -1,6 +1,6 @@
 
 
-#imageContainer {
+.imageContainer {
   height: 100vmin;
   /* width: 100%; */
   position: flex;
@@ -24,12 +24,12 @@
   justify-content: center;
   text-align: center;
   color: #ffffff;
-  letter-spacing: 3vw;
+  letter-spacing: 2vw;
   align-self: center;
   margin: auto;
   /* vertical-align: center; */
   padding-top: 40vmin;
-  font-size: 6vw;
+  font-size: 7vw;
   text-shadow: 0px 2px 10px #111a ;
 }
 
@@ -38,13 +38,34 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  color: #fffa;
+  color: #fffc;
   letter-spacing: 1px;
   align-items: center;
   margin: auto;
   vertical-align: center;
   padding-top: 10px;
   font-size: 1.3em;
-  text-shadow: 1px 2px 10px #111a ;
+  text-shadow: 3px 4px 10px #111a ;
+  
+}
+
+@media screen and (max-width: 700px) {
+  .imageContainer{
+    width: auto;
+    height: 100vh;
+  }
+
+  .hero-title{
+    font-size: 10vmin;
+    padding-top: 25vmax;
+
+  }
+
+  .subtitle{
+    font-size: 4vmin;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   
 }
