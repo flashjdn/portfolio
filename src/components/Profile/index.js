@@ -77,6 +77,31 @@ const Profile = () => {
           alt="A headshot of the page's author, Jordan Flash"
         ></img>
       </div>
+      <div className='faq'>
+      <article>
+      <h2> FAQ </h2>
+          <p className="question">Is your last name really Flash?</p>
+          <ul className="answer">
+            It actually is, BUT I’ve never watched Flash Gordon, nor am I an
+            athletic prodigy so please don’t expect me to win at any sporting
+            event.
+          </ul>
+          <p className="question">Where are you based?</p>
+          <ul className="answer">
+            I currently live in London, UK and have done for most of my life.
+            The only exception is when I moved out to go to university in
+            Southampton.
+          </ul>
+          <p className="question">
+            {' '}
+            You sound amazing! How can I get in contact with you?
+          </p>
+          <ul className="answer">
+            Flattery gets you everywhere in life. You can find links to my
+            socials and CV at the bottom of the page.
+          </ul>
+          </article>
+      </div>
     </section>
   )
 }
