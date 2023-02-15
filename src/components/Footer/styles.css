@@ -11,6 +11,7 @@
 
 .icons {
   width: 400px;
+  /* overflow: hidden; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -26,7 +27,7 @@
 .footer-button:hover {
   /* transform: scale(1.05); */
   display: block;
-  color: var(--secondary);
+  color: var(--linkedin);
 }
 
 a,
@@ -42,4 +43,14 @@ a:active {
   margin: 0px;
   color: var(--white-text);
   font-size: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .icons {
+    width: 100vw;
+    padding-left: 20vmin;
+    padding-right: 20vmin;
+    justify-content: space-between;
+    
+  }
 }
