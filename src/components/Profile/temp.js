@@ -30,6 +30,9 @@ const Profile = () => {
               - Enrolled in a bootcamp April 2022 learning Web Dev with
               JavaScript
             </ul>
+            <ul>
+              - First contract landed with Robert Half in March 2023. See CV for more information.
+            </ul>
           </p>
           <h2 className="subheading">Interests and Hobbies</h2>
           <p>
@@ -46,8 +49,7 @@ const Profile = () => {
               comprised of photos all taken by me
             </ul>
             <ul>
-              - Video games: currently playing destiny 2 (this is a cry for
-              help){' '}
+              - Video games: Helldivers 2, Tekken 8, Skull and Bones{' '}
             </ul>
           </p>
           <h2 className="subheading">FAQ</h2>
