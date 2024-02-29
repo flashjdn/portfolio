@@ -8,7 +8,7 @@ const Profile = () => {
     <section className="container margin">
       <div className="title">
         <h1> Jordan Flash</h1>
-        <h3>Junior Software Engineer</h3>
+        <h3>Software Engineer</h3>
         <div className="underline"></div>
       </div>
       <div className="profile">
@@ -23,6 +23,9 @@ const Profile = () => {
           <p>
             Graduated from School of Code in August 2022, a Full Stack Web
             Development Bootcamp.
+          </p>
+          <p>
+            First role landed in March 2023. Check my CV for the details because right now you're being lazy and trying to get all the info in one place.
           </p>
           </article>
           <article className='paragraph '>
@@ -44,7 +47,7 @@ const Profile = () => {
           </p>
           <p>
             {' '}
-            Video games: Currently playing Destiny 2 (this is a cry for help){' '}
+            Video games: Helldivers 2, Tekken 8, Skull and Bones{' '}
           </p>
           </article>
           <article className='paragraph bottom'>
@@ -53,13 +56,12 @@ const Profile = () => {
           <ul className="answer">
             It actually is, BUT I’ve never watched Flash Gordon, nor am I an
             athletic prodigy so please don’t expect me to win at any sporting
-            event.
+            event. UPDATE: My friend held a sports day for her birthday party. I'm concerningly good at the sack race.
           </ul>
           <p className="question">Where are you based?</p>
           <ul className="answer">
             I currently live in London, UK and have done for most of my life.
-            The only exception is when I moved out to go to university in
-            Southampton.
+            I'd like to live abroad one day. In fact, half the reason I got into tech was to work flexibly.
           </ul>
           <p className="question">
             {' '}
@@ -77,20 +79,19 @@ const Profile = () => {
           alt="A headshot of the page's author, Jordan Flash"
         ></img>
       </div>
-      <div className='faq'>
+      {/* <div className='faq'>
       <article>
       <h2> FAQ </h2>
           <p className="question">Is your last name really Flash?</p>
           <ul className="answer">
             It actually is, BUT I’ve never watched Flash Gordon, nor am I an
             athletic prodigy so please don’t expect me to win at any sporting
-            event.
+            event. UPDATE: My friend held a sports day for her birthday party. I'm concerningly good at the sack race.
           </ul>
           <p className="question">Where are you based?</p>
           <ul className="answer">
             I currently live in London, UK and have done for most of my life.
-            The only exception is when I moved out to go to university in
-            Southampton.
+            I'd like to live abroad one day. In fact, half the reason I got into tech was to work flexibly.
           </ul>
           <p className="question">
             {' '}
@@ -101,7 +102,7 @@ const Profile = () => {
             socials and CV at the bottom of the page.
           </ul>
           </article>
-      </div>
+      </div> */}
     </section>
   )
 }
